@@ -17,17 +17,17 @@ end
 def mention(note)
       case note
       when 10..11
-            mention = "Admis"
+            "Admis"
       when 12..13
-            mention = "Assez bien"
+            "Assez bien"
       when 14..15
-            mention = "Bien"
+            "Bien"
       when 16
-            mention = "Très bien"
+            "Très bien"
       when 17..20
-            mention = "Félicitations"
+            "Félicitations"
       else
-            mention = "Recalé"
+           "Recalé"
       end
 end
 

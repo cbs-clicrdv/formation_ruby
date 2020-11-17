@@ -10,6 +10,16 @@
 #    - 'brand'
 #    - 'color'
 
+class Vehicle
+    attr_reader :brand
+    attr_accessor :color
+    def initialize(brand, color)
+        @brand = brand
+        @color = color
+    end
+end
+
+
 # 3 - Instancier un objet
 # Instancier un objet de la classe voiture dans une variable 'my_first_car' avec les attributs de votre première voiture
 
